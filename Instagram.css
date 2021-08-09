@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-page {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.smartphone {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smartphone img {
+    max-height: 75vh;
+}
+
+.instagram-continue {
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontal */
+    justify-content: space-evenly; /* vertical */
+}
+
+.boxes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EAE0F1;
+    padding: 1vmax;
+    border: 2px solid #AD84C6;
+}
+
+.instagram-logo {
+    height: 7.5vh;
+    margin: 0.25vmax;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.25vmax;
+}
+.profile-picture img {
+    height: 15vh;
+}
+
+.instagram-login {
+    background-color: #8784C7;
+    color: white;
+    padding: 4px;
+    border: 2px solid #524EAB;
+    border-radius: 4px;
+    margin: 0.25vmax;
+}
+
+.instagram-logout {
+    color: #F7630C;
+    margin: 0.25vmax;
+}
+
+.not-astrocat {
+    color: #524EAB;
+    margin: 0.25vmax;
+}
+
+.link-orange {
+    color: #F7630C;
+    margin-top: 0.25vmax;
+    margin-bottom: 0.25vmax;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8784C7;
+    padding: 0.5vmax;
+    border: 2px solid #524EAB;
+}
+
+.get-the-app {
+    color: white;
+    font-weight: bold;
+    margin: 0.25vmax;
+}
+
+.app-download {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5vmax;
+}
+
+.apple-google {
+    width: 128px;
+    height: 34px;
+    background-size: cover;
+}
+
+.apple-google:nth-child(1) {
+    background-image: url(appstore.png);
+}
+
+.apple-google:nth-child(2) {
+    background-image: url(googleplay.png);
+}
