@@ -1,0 +1,14 @@
+@media screen and (max-width:683px){
+    .smartphone{
+        display: none;
+    }
+    .options{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .instagram-page{
+        width: 87.5%;
+    }
+}
